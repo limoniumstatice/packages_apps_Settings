@@ -52,6 +52,14 @@
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController"/>
 
+    <!-- Regulatory labels -->
+    <Preference
+        android:key="regulatory_info"
+        android:order="16"
+        android:title="@string/regulatory_labels">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
+    </Preference>
+
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
