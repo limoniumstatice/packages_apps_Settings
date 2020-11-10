@@ -42,7 +42,6 @@ LOCAL_JAVA_LIBRARIES := \
     ims-common
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    faceunlock_utils \
     androidx-constraintlayout_constraintlayout-solver \
     androidx.lifecycle_lifecycle-runtime \
     androidx.lifecycle_lifecycle-extensions \
